@@ -1,11 +1,16 @@
 class PrimeiroPrograma {
   public static void main(String[] args){
-    System.out.println("oi mundo");
-    }
-}
+      int idade = 10;
+      byte codeValue = 125; // limite de bytes 127
+      short distance = 32764; // limite de distancia
+      long cpf = 112345678911l; // precisa informar o l no final
+      char sex = 'M';
 
-class SegundoPrograma {
-  // sem o main
-  // projeta um erro no console
-  int idade = 10;
-}
+      
+      System.out.println(idade);
+      System.out.println(codeValue);
+      System.out.println(distance);
+      System.out.println(cpf);
+      System.out.println(sex);
+    }
+  }
