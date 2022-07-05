@@ -1,3 +1,4 @@
+package aulas.locadora;
 class Filme {
   int codigo;
   String nome;
