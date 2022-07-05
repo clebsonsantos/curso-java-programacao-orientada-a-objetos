@@ -1,3 +1,4 @@
+package aulas;
 class LacosRepeticao {
   public static void main(String[] args){
     int i;

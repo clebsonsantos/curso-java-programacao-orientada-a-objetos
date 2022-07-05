@@ -1,3 +1,4 @@
+package aulas;
 public class promotions {
   public static void main(String[] args){
     double salario = 500;

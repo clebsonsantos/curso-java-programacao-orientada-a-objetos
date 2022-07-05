@@ -1,3 +1,4 @@
+package aulas;
 class PrimeiroPrograma {
   public static void main(String[] args){
       int idade = 10;
