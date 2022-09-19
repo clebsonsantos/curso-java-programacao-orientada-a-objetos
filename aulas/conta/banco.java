@@ -12,9 +12,14 @@ class Conta {
     saldo += valor;
   }
 
+  void transferir(Conta contaDestino, double valor) {
+    saldo -= valor;
+    contaDestino.saldo += valor;
+  }
+
 }
 
-class ProgramaBanco {
+class Banco {
   public static void main(String[] args){
     Conta conta = new Conta();
     conta.codigo = 251;
@@ -26,5 +31,17 @@ class ProgramaBanco {
 
     conta.depositar(700.05);
     System.out.println(conta.saldo);
+
+    Conta conta2 = new Conta();
+    conta2.codigo = 251;
+    conta2.saldo = 8000;
+    conta2.titular = "Fábio";
+
+    conta.transferir(conta2, 800);
+
+    System.out.println(conta.saldo);
+    System.out.println(conta2.saldo);
+
+
   }
 }
