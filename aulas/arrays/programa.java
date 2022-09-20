@@ -14,8 +14,12 @@ class Programa {
     notas[7] = 10;
 
 
-    for(int i = 0; i < 8; i++) {
+    for(int i = 0; i < notas.length; i++) {
       System.out.println(notas[i]);
+    }
+// For encadeado
+    for(int notes : notas) {
+      System.out.println(notes);
     }
   }
 
