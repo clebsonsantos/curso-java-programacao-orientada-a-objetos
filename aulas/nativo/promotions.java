@@ -1,4 +1,4 @@
-package aulas;
+package aulas.nativo;
 public class promotions {
   public static void main(String[] args){
     double salario = 500;

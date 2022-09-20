@@ -1,4 +1,4 @@
-package aulas;
+package aulas.nativo;
 class LacosRepeticao {
   public static void main(String[] args){
     int i;

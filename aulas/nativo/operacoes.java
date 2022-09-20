@@ -1,4 +1,4 @@
-package aulas;
+package aulas.nativo;
 class OperacoesMatematicas {
   public static void main(String[] args){
     int adicao = 7 + 5;

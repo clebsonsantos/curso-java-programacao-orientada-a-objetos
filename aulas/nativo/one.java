@@ -1,4 +1,4 @@
-package aulas;
+package aulas.nativo;
 class PrimeiroPrograma {
   public static void main(String[] args){
       int idade = 10;
